@@ -37,7 +37,7 @@ resource-pack:
   debug-layout: false
   auto-send:
     enabled: true
-    url: "https://raw.githubusercontent.com/KangAdit020/DarkSoul-ResourcePack/main/DarkSoul-ResourcePack-1.0-BETA-with-Origins.zip"
+    url: "https://raw.githubusercontent.com/KangAdit020/DarkSoul-ResourcePack/212c3a207a53d02521883854a0dd1e35d12f480f/DarkSoul-ResourcePack-1.0-BETA-with-Origins.zip"
     sha1: "06a9b6e5c276adcd745e8b9c3977871644b5a0af"
 ```
 
