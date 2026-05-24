@@ -22,7 +22,7 @@ DarkSoul-ResourcePack-1.0-BETA-with-Origins.zip
 SHA-1 saat ini:
 
 ```text
-29dfe51a9861d34c5bb6e39b2e17dea4cd8ef3f5
+06a9b6e5c276adcd745e8b9c3977871644b5a0af
 ```
 
 ## Konfigurasi Plugin
@@ -38,7 +38,7 @@ resource-pack:
   auto-send:
     enabled: true
     url: "https://raw.githubusercontent.com/KangAdit020/DarkSoul-ResourcePack/main/DarkSoul-ResourcePack-1.0-BETA-with-Origins.zip"
-    sha1: "29dfe51a9861d34c5bb6e39b2e17dea4cd8ef3f5"
+    sha1: "06a9b6e5c276adcd745e8b9c3977871644b5a0af"
 ```
 
 Setelah ZIP di repo diganti, restart server supaya player menerima resource pack baru. Jika client masih memakai tampilan lama, hapus cache server resource pack di client Minecraft.
