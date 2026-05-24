@@ -1,0 +1,184 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "darksoul:gui/origin_selector/overlay/race_human.png",
+      "ascent": 13,
+      "height": 126,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "darksoul:gui/origin_selector/overlay/race_elf.png",
+      "ascent": 13,
+      "height": 126,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "darksoul:gui/origin_selector/overlay/race_dwarf.png",
+      "ascent": 13,
+      "height": 126,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "darksoul:gui/origin_selector/overlay/race_half_human.png",
+      "ascent": 13,
+      "height": 126,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "darksoul:gui/origin_selector/overlay/race_goblin.png",
+      "ascent": 13,
+      "height": 126,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "darksoul:gui/origin_selector/overlay/race_avian.png",
+      "ascent": 13,
+      "height": 126,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "darksoul:gui/origin_selector/overlay/race_feline.png",
+      "ascent": 13,
+      "height": 126,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "darksoul:gui/origin_selector/overlay/race_werewolf.png",
+      "ascent": 13,
+      "height": 126,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "darksoul:gui/origin_selector/overlay/race_atlantean.png",
+      "ascent": 13,
+      "height": 126,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "darksoul:gui/origin_selector/overlay/race_dread_knight.png",
+      "ascent": 13,
+      "height": 126,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "darksoul:gui/origin_selector/overlay/race_ancient_vampire.png",
+      "ascent": 13,
+      "height": 126,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "darksoul:gui/origin_selector/overlay/race_dragonborn.png",
+      "ascent": 13,
+      "height": 126,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "darksoul:gui/origin_selector/overlay/race_voidborn.png",
+      "ascent": 13,
+      "height": 126,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "darksoul:gui/origin_selector/overlay/class_warrior.png",
+      "ascent": 13,
+      "height": 126,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "darksoul:gui/origin_selector/overlay/class_archer.png",
+      "ascent": 13,
+      "height": 126,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "darksoul:gui/origin_selector/overlay/class_assassin.png",
+      "ascent": 13,
+      "height": 126,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "darksoul:gui/origin_selector/overlay/class_abyss.png",
+      "ascent": 13,
+      "height": 126,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "darksoul:gui/origin_selector/overlay/class_celestial.png",
+      "ascent": 13,
+      "height": 126,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "darksoul:gui/origin_selector/overlay/class_druid.png",
+      "ascent": 13,
+      "height": 126,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "darksoul:gui/origin_selector/overlay/empty.png",
+      "ascent": 13,
+      "height": 126,
+      "chars": [
+        ""
+      ]
+    }
+  ]
+}

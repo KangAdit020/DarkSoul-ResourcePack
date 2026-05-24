@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "darksoul:item/gui/race_atlantean"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "darksoul:item/mana_upgrade"
+  }
+}
