@@ -37,11 +37,11 @@ resource-pack:
   debug-layout: false
   auto-send:
     enabled: true
-    url: "https://github.com/KangAdit020/DarkSoul-ResourcePack/releases/download/v1.0.0/DarkSoul-ResourcePack-1.0-BETA-with-Origins.zip"
+    url: "https://raw.githubusercontent.com/KangAdit020/DarkSoul-ResourcePack/main/DarkSoul-ResourcePack-1.0-BETA-with-Origins.zip"
     sha1: "29dfe51a9861d34c5bb6e39b2e17dea4cd8ef3f5"
 ```
 
-Setelah ZIP release diganti, restart server supaya player menerima resource pack baru. Jika client masih memakai tampilan lama, hapus cache server resource pack di client Minecraft.
+Setelah ZIP di repo diganti, restart server supaya player menerima resource pack baru. Jika client masih memakai tampilan lama, hapus cache server resource pack di client Minecraft.
 
 ## Catatan GUI
 
@@ -70,4 +70,4 @@ Lalu salin ZIP hasil build ke repo ini dan update SHA-1:
 Get-FileHash -Algorithm SHA1 .\DarkSoul-ResourcePack-1.0-BETA-with-Origins.zip
 ```
 
-Pastikan SHA di `config.yml` plugin mengikuti ZIP yang sudah di-upload ke GitHub Release.
+Pastikan SHA di `config.yml` plugin mengikuti ZIP yang sudah di-upload ke repo ini.
