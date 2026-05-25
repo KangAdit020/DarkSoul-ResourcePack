@@ -1,0 +1,45 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        "": 1,
+        "": 2,
+        "": 4,
+        "": 8,
+        "": 16,
+        "": 32,
+        "": 64,
+        "": 128,
+        "": 256,
+        "": -1,
+        "": -2,
+        "": -4,
+        "": -8,
+        "": -16,
+        "": -32,
+        "": -64,
+        "": -128,
+        "": -256
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "darksoul:gui/selector_background.png",
+      "ascent": 14,
+      "height": 132,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "darksoul:gui/selector_nameplate.png",
+      "ascent": -8,
+      "height": 22,
+      "chars": [
+        ""
+      ]
+    }
+  ]
+}

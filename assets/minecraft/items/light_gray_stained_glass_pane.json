@@ -1,80 +1,81 @@
 {
+  "oversized_in_gui": true,
   "model": {
-    "type": "select",
-    "property": "custom_model_data",
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
     "fallback": {
-      "type": "model",
-      "model": "item/light_gray_stained_glass_pane"
+      "type": "minecraft:model",
+      "model": "minecraft:item/light_gray_stained_glass_pane"
     },
     "cases": [
       {
-        "when": "1",
+        "when": "GUI_PREVIOUS",
         "model": {
-          "type": "model",
-          "model": "gui/origin_selector/arrow/left"
+          "type": "minecraft:model",
+          "model": "darksoul:gui/previous_button"
         }
       },
       {
-        "when": "2",
+        "when": "GUI_NEXT",
         "model": {
-          "type": "model",
-          "model": "gui/origin_selector/arrow/right"
+          "type": "minecraft:model",
+          "model": "darksoul:gui/next_button"
         }
       },
       {
-        "when": "3",
+        "when": "GUI_UP",
         "model": {
-          "type": "model",
-          "model": "gui/origin_selector/arrow/up"
+          "type": "minecraft:model",
+          "model": "darksoul:gui/up_button"
         }
       },
       {
-        "when": "4",
+        "when": "GUI_DOWN",
         "model": {
-          "type": "model",
-          "model": "gui/origin_selector/arrow/down"
+          "type": "minecraft:model",
+          "model": "darksoul:gui/down_button"
         }
       },
       {
-        "when": "5",
+        "when": "GUI_CONFIRM",
         "model": {
-          "type": "model",
-          "model": "gui/origin_selector/confirm_button"
+          "type": "minecraft:model",
+          "model": "darksoul:gui/confirm_button"
         }
       },
       {
-        "when": "6",
+        "when": "GUI_INVISIBLE",
         "model": {
-          "type": "model",
-          "model": "gui/origin_selector/invisible_button"
+          "type": "minecraft:model",
+          "model": "darksoul:gui/invisible_button"
         }
       },
       {
-        "when": "7",
+        "when": "GUI_PREVIOUS_DISABLED",
         "model": {
-          "type": "model",
-          "model": "gui/origin_selector/arrow/left_disabled"
+          "type": "minecraft:model",
+          "model": "darksoul:gui/previous_disabled"
         }
       },
       {
-        "when": "8",
+        "when": "GUI_NEXT_DISABLED",
         "model": {
-          "type": "model",
-          "model": "gui/origin_selector/arrow/right_disabled"
+          "type": "minecraft:model",
+          "model": "darksoul:gui/next_disabled"
         }
       },
       {
-        "when": "9",
+        "when": "GUI_UP_DISABLED",
         "model": {
-          "type": "model",
-          "model": "gui/origin_selector/arrow/up_disabled"
+          "type": "minecraft:model",
+          "model": "darksoul:gui/up_disabled"
         }
       },
       {
-        "when": "10",
+        "when": "GUI_DOWN_DISABLED",
         "model": {
-          "type": "model",
-          "model": "gui/origin_selector/arrow/down_disabled"
+          "type": "minecraft:model",
+          "model": "darksoul:gui/down_disabled"
         }
       }
     ]

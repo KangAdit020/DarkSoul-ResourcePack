@@ -1,14 +1,16 @@
 # DarkSoul Resource Pack
 
-Resource pack resmi untuk plugin **DarkSoul**. Pack ini dipakai untuk custom item model, icon GUI, tombol GUI, font glyph, dan overlay origin selector.
+Resource pack resmi untuk plugin **DarkSoul**. Pack ini memuat custom item model, icon GUI, tombol GUI, dan font glyph selector buatan DarkSoul.
 
 ## Isi Pack
 
-- `assets/darksoul/models/item/` - model item dan GUI button DarkSoul.
-- `assets/darksoul/textures/item/` - texture item custom.
-- `assets/darksoul/textures/gui/origin_selector/overlay/` - overlay GUI race/class yang sudah diposisikan pixel-perfect.
-- `assets/darksoul/font/origin_selector_overlay.json` - custom font untuk menampilkan overlay selector.
-- `assets/minecraft/textures/gui/origin_selector/` - asset visual yang diadaptasi untuk tampilan origin selector.
+- `assets/darksoul/textures/gui/selector_background.png` - canvas background selector.
+- `assets/darksoul/font/selector.json` - glyph background dan negative/positive spacing.
+- `assets/darksoul/font/title_text.json` - font kecil untuk nameplate selector.
+- `assets/darksoul/font/text_line_0.json` sampai `text_line_5.json` - font line untuk description di title inventory.
+- `assets/darksoul/textures/item/gui/` - texture tombol selector dan icon GUI DarkSoul.
+- `assets/darksoul/models/gui/` - model item tombol selector.
+- `assets/minecraft/items/light_gray_stained_glass_pane.json` - mapping custom model data tombol GUI.
 - `pack.mcmeta` dan `pack.png` - metadata resource pack.
 
 ## File Release
@@ -16,18 +18,14 @@ Resource pack resmi untuk plugin **DarkSoul**. Pack ini dipakai untuk custom ite
 ZIP siap pakai:
 
 ```text
-DarkSoul-ResourcePack-1.0-BETA-with-Origins.zip
+DarkSoul-ResourcePack-1.0-BETA.zip
 ```
 
-SHA-1 saat ini:
-
-```text
-06a9b6e5c276adcd745e8b9c3977871644b5a0af
-```
+SHA-1 release ditulis ulang setiap kali ZIP dibuild.
 
 ## Konfigurasi Plugin
 
-Di `plugins/DarkSoul/config.yml`, gunakan URL release GitHub dan SHA-1 yang sama dengan ZIP terbaru:
+Di `plugins/DarkSoul/config.yml`, gunakan URL raw GitHub yang dipin ke commit dan SHA-1 ZIP terbaru:
 
 ```yaml
 resource-pack:
@@ -37,37 +35,21 @@ resource-pack:
   debug-layout: false
   auto-send:
     enabled: true
-    url: "https://raw.githubusercontent.com/KangAdit020/DarkSoul-ResourcePack/212c3a207a53d02521883854a0dd1e35d12f480f/DarkSoul-ResourcePack-1.0-BETA-with-Origins.zip"
-    sha1: "06a9b6e5c276adcd745e8b9c3977871644b5a0af"
+    url: "https://raw.githubusercontent.com/KangAdit020/DarkSoul-ResourcePack/<commit>/DarkSoul-ResourcePack-1.0-BETA.zip"
+    sha1: "<sha1>"
 ```
-
-Setelah ZIP di repo diganti, restart server supaya player menerima resource pack baru. Jika client masih memakai tampilan lama, hapus cache server resource pack di client Minecraft.
 
 ## Catatan GUI
 
-Origin selector DarkSoul memakai satu overlay bitmap per race/class agar layout tidak mudah bergeser saat GUI scale atau ukuran window berubah. Overlay tersebut memuat:
+Selector DarkSoul memakai chest inventory 54 slot sebagai hitbox. Visual utama dirender lewat title inventory custom bitmap font, sedangkan tombol previous/next/up/down/confirm memakai custom item model. Confirm memakai satu visual lebar di slot 48 dan hitbox invisible di slot 49 serta 50.
 
-- frame selector
-- title bar
-- icon race/class
-- nama race/class
-- indicator dots
-- description yang sudah di-wrap
-
-Tombol klik tetap memakai slot inventory vanilla, sedangkan visual frame dan text overlay berasal dari custom font resource pack.
+Description utama race/class dirender melalui font line `darksoul:text_line_0` sampai `darksoul:text_line_5`, bukan lore item. Lore hanya dipakai saat `debug-layout=true` untuk membaca slot/action.
 
 ## Update Pack
 
-Build resource pack dari project plugin DarkSoul:
+Build ZIP dari root repo resource pack:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File scripts\build-resource-pack.ps1
+Compress-Archive -Path pack.mcmeta,pack.png,assets -DestinationPath DarkSoul-ResourcePack-1.0-BETA.zip -Force
+Get-FileHash -Algorithm SHA1 .\DarkSoul-ResourcePack-1.0-BETA.zip
 ```
-
-Lalu salin ZIP hasil build ke repo ini dan update SHA-1:
-
-```powershell
-Get-FileHash -Algorithm SHA1 .\DarkSoul-ResourcePack-1.0-BETA-with-Origins.zip
-```
-
-Pastikan SHA di `config.yml` plugin mengikuti ZIP yang sudah di-upload ke repo ini.
