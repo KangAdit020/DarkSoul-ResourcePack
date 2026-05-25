@@ -20,21 +20,24 @@
         "": -32,
         "": -64,
         "": -128,
-        "": -256
+        "": -256,
+        "": -2,
+        "": 4,
+        "": 6
       }
     },
     {
       "type": "bitmap",
       "file": "darksoul:font/darksoul_ascii.png",
-      "ascent": -81,
-      "height": 9,
+      "ascent": -79,
+      "height": 11,
       "chars": [
         " !\"#$%&'()*+,-./",
         "0123456789:;<=>?",
         "@ABCDEFGHIJKLMNO",
         "PQRSTUVWXYZ[\\]^_",
         "`abcdefghijklmno",
-        "pqrstuvwxyz{|}~"
+        "pqrstuvwxyz{|}~"
       ]
     }
   ]

@@ -1,19 +1,19 @@
 {
+  "credit": "DarkSoul custom GUI model",
   "textures": {
-    "layer0": "darksoul:item/gui/confirm_button"
+    "0": "darksoul:item/gui/confirm_button"
   },
-  "gui_light": "front",
   "elements": [
     {
       "from": [
-        -24,
+        -16,
         0,
         0
       ],
       "to": [
-        40,
+        32,
         16,
-        1
+        2
       ],
       "faces": {
         "north": {
@@ -23,7 +23,18 @@
             16,
             16
           ],
-          "texture": "#layer0"
+          "rotation": 180,
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ],
+          "rotation": 270,
+          "texture": "#0"
         },
         "south": {
           "uv": [
@@ -32,27 +43,47 @@
             16,
             16
           ],
-          "texture": "#layer0"
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ],
+          "rotation": 90,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ],
+          "rotation": 180,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ],
+          "texture": "#0"
         }
       }
     }
   ],
+  "gui_light": "front",
   "display": {
     "gui": {
-      "rotation": [
-        0,
-        0,
-        0
-      ],
       "translation": [
-        24,
+        18,
         0,
         0
-      ],
-      "scale": [
-        1,
-        1,
-        1
       ]
     }
   }

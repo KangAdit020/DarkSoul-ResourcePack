@@ -20,14 +20,17 @@
         "": -32,
         "": -64,
         "": -128,
-        "": -256
+        "": -256,
+        "": -2,
+        "": 4,
+        "": 6
       }
     },
     {
       "type": "bitmap",
       "file": "darksoul:gui/selector_background.png",
-      "ascent": 14,
-      "height": 132,
+      "ascent": 13,
+      "height": 126,
       "chars": [
         ""
       ]
@@ -35,8 +38,8 @@
     {
       "type": "bitmap",
       "file": "darksoul:gui/selector_nameplate.png",
-      "ascent": -8,
-      "height": 22,
+      "ascent": -1,
+      "height": 24,
       "chars": [
         ""
       ]
